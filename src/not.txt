@@ -1,6 +1,6 @@
-adb shell
-dumpsys window windows | grep -E 'mCurrentFocus' =>com.duolingo/com.duolingo.app.LoginActivity
+adb shell =>com.duolingo/com.duolingo.app.LoginActivity
 
+dumpsys window windows | grep -E 'mCurrentFocus'
 Ayarlar->Sistem->Telefon Hakkinda->Gelistirici Secenekleri->OEM Kilidini Acm
 
 
